@@ -1,0 +1,246 @@
+$date
+	Thu Dec 28 12:29:29 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 32 ! PRWDATA [31:0] $end
+$var wire 32 " PRWADDR [31:0] $end
+$var wire 1 # PREADY $end
+$var wire 32 $ PRDATA1 [31:0] $end
+$var wire 1 % PENABLE $end
+$var reg 32 & PADDR [31:0] $end
+$var reg 1 ' PCLK $end
+$var reg 32 ( PDATA [31:0] $end
+$var reg 1 ) PRESET $end
+$var reg 1 * PSEL $end
+$var reg 1 + PWRITE $end
+$var reg 1 , transfer $end
+$scope module m $end
+$var wire 32 - PADDR [31:0] $end
+$var wire 1 ' PCLK $end
+$var wire 32 . PDATA [31:0] $end
+$var wire 1 ) PRESET $end
+$var wire 1 * PSEL $end
+$var wire 1 + PWRITE $end
+$var wire 1 , transfer $end
+$var wire 1 # PREADY $end
+$var reg 1 % PENABLE $end
+$var reg 32 / PRWADDR [31:0] $end
+$var reg 32 0 PRWDATA [31:0] $end
+$var reg 2 1 state [1:0] $end
+$scope task apb_read $end
+$var reg 32 2 addr [31:0] $end
+$upscope $end
+$scope task apb_write $end
+$var reg 32 3 addr [31:0] $end
+$var reg 32 4 data [31:0] $end
+$upscope $end
+$upscope $end
+$scope module s $end
+$var wire 1 ' PCLK $end
+$var wire 1 % PENABLE $end
+$var wire 1 ) PRESET $end
+$var wire 32 5 PRWADDR [31:0] $end
+$var wire 32 6 PRWDATA [31:0] $end
+$var wire 1 * PSEL $end
+$var wire 1 + PWRITE $end
+$var reg 32 7 PRDATA1 [31:0] $end
+$var reg 1 # PREADY $end
+$var reg 4 8 state [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 8
+b0 7
+b0 6
+b0 5
+bx 4
+bx 3
+bx 2
+b0 1
+b0 0
+b0 /
+b1100001001 .
+b0 -
+1,
+1+
+0*
+1)
+b1100001001 (
+0'
+b0 &
+0%
+b0 $
+0#
+b0 "
+b0 !
+$end
+#5
+1'
+#10
+0'
+1*
+0)
+#15
+b1 1
+1'
+#20
+0'
+#25
+1%
+1'
+#30
+0'
+#35
+b11 1
+b1100001001 !
+b1100001001 0
+b1100001001 6
+b1100001001 4
+b0 3
+1#
+1'
+#40
+0'
+0*
+#45
+0#
+1'
+#50
+0'
+#55
+1'
+#60
+0'
+1*
+b101000000100100010000000100011 (
+b101000000100100010000000100011 .
+b100 &
+b100 -
+#65
+b1 1
+b1100001001 $
+b1100001001 7
+1#
+1'
+#70
+0'
+#75
+b11 1
+b100 "
+b100 /
+b100 5
+b101000000100100010000000100011 !
+b101000000100100010000000100011 0
+b101000000100100010000000100011 6
+b101000000100100010000000100011 4
+b100 3
+1'
+#80
+0'
+#85
+b1 1
+b101000000100100010000000100011 $
+b101000000100100010000000100011 7
+1'
+#90
+0'
+0*
+#95
+0#
+1'
+#100
+0'
+#105
+1'
+#110
+0'
+1*
+b1000001011011000110010101101011 (
+b1000001011011000110010101101011 .
+b1000 &
+b1000 -
+#115
+b11 1
+b1000 "
+b1000 /
+b1000 5
+b1000001011011000110010101101011 !
+b1000001011011000110010101101011 0
+b1000001011011000110010101101011 6
+b1000001011011000110010101101011 4
+b1000 3
+1#
+1'
+#120
+0'
+#125
+b1 1
+b1000001011011000110010101101011 $
+b1000001011011000110010101101011 7
+1'
+#130
+0'
+#135
+b11 1
+1'
+#140
+0'
+0*
+#145
+0#
+1'
+#150
+0'
+#155
+1'
+#160
+0'
+1*
+b1001100011001010110010100000000 (
+b1001100011001010110010100000000 .
+b1100 &
+b1100 -
+#165
+b1 1
+1#
+1'
+#170
+0'
+#175
+b11 1
+b1100 "
+b1100 /
+b1100 5
+b1001100011001010110010100000000 !
+b1001100011001010110010100000000 0
+b1001100011001010110010100000000 6
+b1001100011001010110010100000000 4
+b1100 3
+1'
+#180
+0'
+#185
+b1 1
+b1001100011001010110010100000000 $
+b1001100011001010110010100000000 7
+1'
+#190
+0'
+0*
+#195
+0#
+1'
+#200
+0'
+#205
+1'
+#210
+0'
